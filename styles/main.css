@@ -1,0 +1,133 @@
+body {
+    background-color: lightgrey;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+header {
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: #555555;
+}
+ul a{
+    display: block;
+    color: #CCCCCC;
+    text-decoration: none; 
+    height: 26px;   
+}
+li{
+    display: inline-block;
+    height: 21px;
+    width: 100px;
+    text-align: center;
+    background-color: #666666;
+    border-top: 2px groove #CCCCCC;
+    border-left: 2px groove #CCCCCC;
+    border-bottom: 2px groove black;
+    border-right: 2px groove black;
+    padding: 5px 0px;
+}
+li:hover{
+    background-color: #555555;
+    display: inline-block;
+}
+
+li a:hover{
+    display: block;
+    color: white;
+    text-shadow: 2px -2px 4px white;
+}
+li:active{
+    border-top: 2px groove black;
+    border-left: 2px groove black;
+    border-bottom: 2px groove #CCCCCC;
+    border-right: 2px groove #CCCCCC;
+
+}
+div.body{
+    margin: 5px auto;
+    padding: 2px 5px;
+    height: 500px;
+    width: 90%;
+}
+div.body img{
+    height: 200px;
+    margin: 5px 10px 5px 0px;
+    float: left;
+}
+div .center{
+    width: 50%;
+    margin: 10px auto 0px;
+}
+footer{
+    padding: 5px;
+    margin: 5px auto;
+    font-size: 11px;
+    width: 90%;
+}
+footer p{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:nth-child(even){
+    background-color: #CCCCCC
+}
+tr:nth-child(odd){
+    background-color: #AAAAAA;
+}
+th, td {
+    padding: 10px 5px;
+}
+
+th{
+    background-color: #555555;
+    color: #F0F0F0;
+}
+th.werkgever{
+    border-left: 2px double #F0F0F0;
+    border-right: 2px double #F0F0F0;
+}
+td.werkgever{
+    text-align: center;
+    border-left: 2px double #555555;
+    border-right: 2px double #555555;
+}
+form input, form label{
+    display: block;
+}
+label{
+    font-size: 0.8em;
+    font-weight: bold;
+    font-style: italic;
+}
+input[type="text"], input[type="email"],input[type=submit], textarea{
+    margin: 1px 0px 15px;
+    border-top: 1px solid #333333;
+    border-left: 1px solid #333333;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+input[type="text"], input[type="email"],textarea{
+    width: 100%;
+}
+input[type=submit]{
+    font-weight: bold;
+    margin: 0px auto;
+}
+#submit:active{
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    font-size: 0.9em;
+    background-color: #DDDDDD;
+}
+textarea{
+    height: 150px; 
+}
